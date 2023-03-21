@@ -1,4 +1,4 @@
-import Component from "../../helpers/component.js";
+import Component from "../../helpers/Component.js";
 
 class Breadcrumb extends Component {
   constructor(props) {
