@@ -22,12 +22,12 @@ class Loading {
 
   on() {
     this.isLoading = true;
-    render();
+    this.render();
   }
 
   off() {
     this.isLoading = false;
-    render();
+    this.render();
   }
 
   render() {

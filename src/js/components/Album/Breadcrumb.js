@@ -47,7 +47,7 @@ class Breadcrumb extends Component {
   }
 
   getParentNode() {
-    return this.routes(this.routes.length - 1);
+    return this.routes[this.routes.length - 1];
   }
 
   render() {
